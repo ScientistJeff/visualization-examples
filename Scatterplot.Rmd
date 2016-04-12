@@ -20,4 +20,4 @@ library(ggplot2)
 ggpairs(iris, columns=c("Sepal.Length","Sepal.Width", "Petal.Length","Petal.Width"),
         mapping=aes(color=Species))
 ```
-
+![Scatterplot Matrix](figures/Scattermat.png)
